@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Tareas</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="shortcut icon" href="favicon.webp" type="image/x-icon">
+</head>
+<body>
+  <main class="container">
+    <h1 class="text-center">Título de la Página</h1>
+    <div class="text-right">
+      <a class="add-button" href="/add">Agregar Tarea</a>
+    </div>
+    <ul class="task-list">
+
+      <!-- Si hay tareas -->
+      <li class="completed">
+        <a href="/edit/1">Título de la tarea completada</a>
+        <a class="uncomplete-button" href="/uncomplete/1">Desmarcar</a>
+        <a class="delete-button" href="/delete/1">Eliminar</a>
+      </li>
+
+      <li>
+        <a href="/edit/2">Título de la tarea pendiente</a>
+        <a class="complete-button" href="/complete/2">Completar</a>
+        <a class="delete-button" href="/delete/2">Eliminar</a>
+      </li>
+    </ul>
+  </main>
+</body>
+</html>
